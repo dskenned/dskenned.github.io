@@ -1,0 +1,224 @@
+<html>
+<head>
+    <link href='./resources/css/index.css' type='text/css' rel='stylesheet' media='all';>
+  <title>Coding Cheatsheet</title>
+</head>
+<body>
+    <header>
+        <h1 id=title>HTML Cheatsheet</h1>
+    </header>
+    <h2>Document Summary</h2>
+        <table id=docSumTable>
+            <tbody>
+                <tr>
+                    <td>Type</td>
+                    <td>Description</td>
+                </tr>
+                <tr>
+                    <td>&lt;html&gt;&lt;/html&gt;</td>
+                    <td>This tag shows up at the beginning and the end of an html document (known as the root element). It indicates that the webpage is written in HTML5, and all other page markup comes between these beginning and ending tags.</td>
+                </tr>
+                <tr>
+                    <td>&lt;title&gt;&lt;/title&gt;</td>
+                    <td>The title tag is the title for that page, useful for both search engines (when they scan and index pages) and users(showing up in a browsers title bar) by explicitly stating the topic of each page.</td>
+                </tr>
+                <tr>
+                    <td>&lt;head&gt;&lt;/head&gt;</td>
+                    <td>Contains information about that specific page, including the title tags, meta data, and links to scrpts and style sheets.</td>
+                </tr>
+                <tr>
+                    <td>&lt;body&gt;&lt;/body&gt;</td>
+                    <td>Body tags include all content that will be shown to users, including everything they will see and read.</td>
+                </tr>
+            </tbody>
+        </table>
+    <h2>Document Information</h2>
+        <table id=docInfoTable>
+            <tbody>
+                <tr>
+                    <td>Type</td>
+                    <td>Description</td>
+                </tr>
+                <tr>
+                    <td>&lt;base/&gt;</td>
+                    <td>The base URL (for example www.yourwebsite.com), is useful for specifying all relative links in a document (especially if you have many internal links).</td>
+                </tr>
+                <tr>
+                    <td>&lt;style&gt;&lt;/style&gt;</td>
+                    <td>This element includes document style information, typically defaulting to CSS.</td>
+                </tr>
+                <tr>
+                    <td>&lt;meta/&gt;</td>
+                    <td>Meta data spells out additional information about the page, including the pages description, author, published date, keywords, and other typically 'hidden' page information.</td>
+                </tr>
+                <tr>
+                    <td>&lt;script&gt;&lt;/script&gt;</td>
+                    <td>This element includes all scripting information, or links to external scripts. You can also include this element in the body to dynamically generate content.</td>
+                </tr>
+                <tr>
+                    <td>&lt;link/&gt;</td>
+                    <td>Can be used to create relationships with external pages or documents, including style sheets.</td>
+                </tr>
+            </tbody>
+        </table>
+    <h2>Document Structure</h2>
+        <table id=docStructureTable>
+            <tbody>
+                <tr>
+                    <td>Type</td>
+                    <td>Description</td>
+                </tr>
+                <tr>
+                    <td>&lt;h1...h6&gt;&lt;/h1...h6&gt;</td>
+                    <td>All 6 levels of Headings, with 1 being the most important on a page and 6 being the least. These elements are used to describe content sections on a page.</td>
+                </tr>
+                <tr>
+                    <td>&lt;p&gt;&lt;/p&gt;</td>
+                    <td>This founational tag is used to describe paragraphs of text.</td>
+                </tr>
+                <tr>
+                    <td>&lt;div&gt;&lt;/div&gt;</td>
+                    <td>A generic container used to denote a page section.</td>
+                </tr>
+                <tr>
+                    <td>&lt;br/&gt;</td>
+                    <td>Creates a line break (or old-school carriage-return), useful for writing blocks of text that need to be on different lines (think adresses).</td>
+                </tr>
+                <tr>
+                    <td>&lt;span&gt;&lt;/span&gt;</td>
+                    <td>An inline section or block container, typically used for grouping styling elements.</td>
+                </tr>
+                <tr>
+                    <td>&lt;hr/&gt;</td>
+                    <td>Creates a horizontal rule, a sectional break in an HTML page. Typically used to denote a change in topic or section of a page.</td>
+                </tr>
+            </tbody>
+        </table>
+    <h2>Text(+formatting)</h2>
+        <table id=textFormatTable>
+            <tbody>
+                <tr>
+                    <td>Type</td>
+                    <td>Description</td>
+                </tr>
+                <tr>
+                    <td>&lt;strong&gt;&lt;/strong&gt;</td>
+                    <td>Indicating strong emphasis, bold in most browsers.</td>
+                </tr>
+                <tr>
+                    <td>&lt;q&gt;&lt;/q&gt;</td>
+                    <td>These are used for shorter quotations.</td>
+                </tr>
+                <tr>
+                    <td>&lt;b&gt;&lt;/b&gt;</td>
+                    <td>Another way to create bold text, however this is more for drawing attention as opposed to emphasizing extra emphasis like the previous tag.</td>
+                </tr>
+                <tr>
+                    <td>&lt;abbr&gt;&lt;/abbr&gt;</td>
+                    <td>These help denote abbreviations, while also making the full form available.</td>
+                </tr>
+                <tr>
+                    <td>&lt;em&gt;&lt;/em&gt;</td>
+                    <td>Used for emphasizing text or phrases, displayed as italics in most browsers.</td>
+                </tr>
+                <tr>
+                    <td>&lt;acronym&gt;/acronym&lt;&gt;</td>
+                    <td>Similiar to the previous abbreviation tag, but this time with acronyms. Not Supported In HTML5.</td>
+                </tr>
+                <tr>
+                    <td>&lt;i&gt;&lt;/i&gt;</td>
+                    <td>Another way to add italics to text, however without the added emphasis and instead used to denote things like thoughts or names.</td>
+                </tr>
+                <tr>
+                    <td>&lt;address&gt;&lt;/address&gt;</td>
+                    <td>A helpfully obvious tag that displays the authors name.</td>
+                </tr>
+                <tr>
+                    <td>&lt;tt&gt;&lt;/tt&gt;</td>
+                    <td>An older tag used to denote a fixed-width, typewriter-esque text. No Longer Supported In HTML5.</td>
+                </tr>
+                <tr>
+                    <td>&lt;dfn&gt;&lt;/dfn&gt;</td>
+                    <td>Used to create an inline defition in the body text.</td>
+                </tr>
+                <tr>
+                    <td>&lt;strike&gt;&lt;/strike&gt;</td>
+                    <td>This tag creates strike through text (text with a line through it). Another older tag not commonly supported.</td>
+                </tr>
+                <tr>
+                    <td>&lt;code&gt;&lt;/code&gt;</td>
+                    <td>Code text displays code snippets, typcially showing up monospaced.</td>
+                </tr>
+                <tr>
+                    <td>&lt;cite&gt;&lt;/cite&gt;</td>
+                    <td>Tags used to cite or reference information, useful for quotes or statements in a document.</td>
+                </tr>
+                <tr>
+                    <td>&lt;font&gt;&lt;/font&gt;</td>
+                    <td> The font tag is an old-school way to color font. No Longer Supported By HTML5.</td>
+                </tr>
+                <tr>
+                    <td>&lt;sub&gt;&lt;/sub&gt;</td>
+                    <td>Subscript text is a helpful way to subscript text (shrinking it and placing it a half line lower than the previous text).</td>
+                </tr>
+                <tr>
+                    <td>&lt;span&gt;&lt;/span&gt;</td>
+                    <td>An inline section or block container, typically used for grouping styling elements.</td>
+                </tr>
+                <tr>
+                    <td>&lt;del&gt;&gt;/del&lt;</td>
+                    <td>Helps denote a previously deleted section of text.</td>
+                </tr>
+                <tr>
+                    <td>&lt;sup&gt;&lt;/sup&gt;</td>
+                    <td>Superscript text, similiar to the previous subscript, except this time placing it a half line higher than the previous text.</td>
+                </tr>
+                <tr>
+                    <td>&lt;ins&gt;&lt;/ins&gt;</td>
+                    <td>Represents a section of text that has been inserted into the document.</td>
+                </tr>
+                <tr>
+                    <td>&lt;small&gt;&lt;/small&gt;</td>
+                    <td>Small size text, historically used to simply reduce the text size, in HTML5 it also refers to information that may no longer be valid, accurate, or relevant.</td>
+                </tr>
+                <tr>
+                    <td>&lt;blockquote&gt;&gt;/blockquote&lt;</td>
+                    <td>Reserved for long paragraphs of quotations, often cited.</td>
+                </tr>
+                <tr>
+                    <td>&lt;bdo&gt;&lt;/bdo&gt;</td>
+                    <td>The bi-directional override tag will identify which text should be read opposite from the preceeding text.</td>
+                </tr>
+            </tbody>
+        </table>
+    <h2>Links(+formatting)</h2>
+        <table id=linkFormatTable>
+            <tbody>
+                <tr>
+                    <td>Type</td>
+                    <td>Description</td>
+                </tr>
+                <tr>
+                    <td>&lt;a href=''&gt;&lt;/a&gt;</td>
+                    <td>Anchor text for hyperlink.</td>
+                </tr>
+                <tr>
+                    <td>&lt;a name='name'&gt;&lt;/a&gt;</td>
+                    <td>An anchor that's useful for bringing users to specific document elements.</td>
+                </tr>
+                <tr>
+                    <td>&lt;a href='mailto:'&gt;&lt;/a&gt;</td>
+                    <td>A link used to bring up an outgoing message to a specific email address.</td>
+                </tr>
+                <tr>
+                    <td>&lt;a href='#name'&gt;&lt;/a&gt;</td>
+                    <td>An anchor link that brings users specifically to a div element.</td>
+                </tr>
+                <tr>
+                    <td>&lt;a href='tel://###-###'&gt;&lt;/a&gt;</td>
+                    <td>A link to make phone numbers clickable, espcially useful for mobile users.</td>
+                </tr>
+            </tbody>
+        </table>
+</body>
+</html>
